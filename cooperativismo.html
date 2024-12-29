@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Informativo sobre Cooperativismo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f7f7f7;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(135deg, #007BFF, #0056b3);
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
+        header h1 {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+            margin: 0;
+        }
+        header p {
+            font-weight: 400;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #0056b3;
+            padding: 1rem 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #FFD700;
+        }
+        .container {
+            padding: 2rem 1rem;
+        }
+        section {
+            margin-bottom: 2rem;
+        }
+        section h2 {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: #007BFF;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            margin: 0.5rem 0;
+        }
+        ol {
+            padding-left: 1.5rem;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        input, textarea {
+            padding: 0.8rem;
+            margin: 0.5rem 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+        button {
+            background: #007BFF;
+            color: white;
+            border: none;
+            padding: 1rem;
+            font-size: 1rem;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+                align-items: center;
+            }
+            nav a {
+                margin: 0.5rem 0;
+            }
+            .container {
+                padding: 2rem 0.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao Site Informativo sobre Cooperativismo</h1>
+        <p>Explore informações sobre a importância e os benefícios do cooperativismo.</p>
+    </header>
+    <nav>
+        <a href="#sobre">Sobre</a>
+        <a href="#principios">Princípios</a>
+        <a href="#vantagens">Vantagens</a>
+        <a href="#tipos">Tipos de Cooperativas</a>
+        <a href="#como-participar">Como Participar</a>
+        <a href="#contato">Contato</a>
+    </nav>
+    <div class="container">
+        <section id="sobre">
+            <h2>Sobre</h2>
+            <p>O cooperativismo é um modelo de organização baseado na união de pessoas com objetivos em comum, promovendo desenvolvimento econômico e social de forma democrática e sustentável.</p>
+        </section>
+        <section id="principios">
+            <h2>Princípios do Cooperativismo</h2>
+            <ul>
+                <li>Adesão voluntária e livre</li>
+                <li>Gestão democrática pelos membros</li>
+                <li>Participação econômica dos membros</li>
+                <li>Autonomia e independência</li>
+                <li>Educação, formação e informação</li>
+                <li>Cooperação entre cooperativas</li>
+                <li>Compromisso com a comunidade</li>
+            </ul>
+        </section>
+        <section id="vantagens">
+            <h2>Vantagens do Cooperativismo</h2>
+            <p>As cooperativas oferecem diversos benefícios, como:</p>
+            <ul>
+                <li>Fortalecimento da economia local</li>
+                <li>Desenvolvimento sustentável</li>
+                <li>Promoção da justiça social</li>
+                <li>Participação ativa dos membros nas decisões</li>
+            </ul>
+        </section>
+        <section id="tipos">
+            <h2>Tipos de Cooperativas</h2>
+            <p>Existem diversos tipos de cooperativas que atendem diferentes necessidades e objetivos. Alguns dos principais tipos incluem:</p>
+            <ul>
+                <li><strong>Cooperativas de Consumo:</strong> Focadas em fornecer bens e serviços aos membros a preços acessíveis.</li>
+                <li><strong>Cooperativas de Crédito:</strong> Oferecem serviços financeiros, como empréstimos e poupança, para seus membros.</li>
+                <li><strong>Cooperativas de Produção:</strong> Formadas por produtores que trabalham juntos para aumentar a produtividade e comercialização.</li>
+                <li><strong>Cooperativas de Trabalho:</strong> Compostas por trabalhadores que se organizam para oferecer serviços de forma conjunta.</li>
+                <li><strong>Cooperativas Agrícolas:</strong> Auxiliam agricultores na compra de insumos, produção e venda de produtos.</li>
+            </ul>
+        </section>
+        <section id="como-participar">
+            <h2>Como Participar de uma Cooperativa</h2>
+            <p>Participar de uma cooperativa é um processo simples e acessível. Veja os passos básicos:</p>
+            <ol>
+                <li>Pesquise cooperativas próximas à sua região ou do seu interesse.</li>
+                <li>Entre em contato para conhecer os requisitos de adesão.</li>
+                <li>Participe das reuniões para entender o funcionamento e os benefícios.</li>
+                <li>Contribua com a taxa de adesão ou cota necessária, quando aplicável.</li>
+                <li>Engaje-se nas atividades e decisões da cooperativa como membro ativo.</li>
+            </ol>
+        </section>
+        <section id="contato">
+            <h2>Contato</h2>
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Site Informativo sobre Cooperativismo. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
